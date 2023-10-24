@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message for Bukky</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Your Special Message for Bukky</h1>
+        </header>
+        <main>
+            <iframe id="audio" src="https://www.youtube.com/watch?v=o3SqUUoJjW8&pp=ygUXbGFuYSBkZWwgcmV5IHdlc3QgY29hc3Q%3D" frameborder="0" allowfullscreen></iframe>
+            <div class="message hidden">
+                <h2>Hey there, Bookie!</h2>
+                <p>Before we dive into it, let's start with a fun fact: Did you know that we met on the 18th of January 2022? I'm pretty good with dates and numbers, but what's truly unforgettable is you.</p>
+                <p>You're incredibly smart, funny, and your unintentional cuteness is beyond words. Your love for Jujutsu Kaisen, Lana Del Rey, and those adorable kitties is something special.</p>
+                <p>But hold up, it's not what you might think. I just need to share something important with you. I want you to know that I'm not looking for a relationship right now. Just sharing my feelings with you, no pressure.</p>
+                <p>Now, let's keep the mood light and fun. I have some questions Pete Davidson-style to ask you. Ready for the challenge?</p>
+                <button id="startQuestions">Start Questions</button>
+            </div>
+            <div class="lunch-question hidden">
+                <h2>Lunch?</h2>
+                <p>Question 4: How about we have lunch sometime? If you're up for it, let me know your preferred date and time.</p>
+                <button id="lunchYes">Yes, I'd love to!</button>
+            </div>
+        </main>
+        <div id="scrollBlocker" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
